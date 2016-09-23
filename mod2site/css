@@ -14,7 +14,7 @@ section{ /*base configuration*/
   border: black solid 1px;
   box-sizing: border-box;
   background-color: #FBE5E5;  /*light pink*/
-  margin: 20px;
+  margin: 1em;
 }
 
 h2{
@@ -61,7 +61,7 @@ p {
   /*Tablet: set so has equal first 2 columns in one row, and 2nd row takes the whole width*/
 
   .col-md-6 {
-    width: 45%;
+    width: 48%;
     position: relative;
     float: right;
   }
@@ -69,19 +69,20 @@ p {
   #Tea {
     anchor: top left;
     clear: left;
-    margin-right: 5px;
+    margin-right: 0.3em;
   }
 
   #Coffee {
-    margin-right: 25px;
+    margin-left: 0.4em;
   }
 
   .col-md-1 {
-    width: 93%;
+    width: 94%;
     position: absolute;
     clear: left;
     top: 300px;
     margin-left: 36px;
+    right: 1%;
   }
 
   .row2 {
