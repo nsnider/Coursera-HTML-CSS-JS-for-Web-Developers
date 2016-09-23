@@ -70,10 +70,12 @@ p {
     anchor: top left;
     clear: left;
     margin-right: 0.3em;
+    height: 195px;
   }
 
   #Coffee {
     margin-left: 0.4em;
+    height: 195px;
   }
 
   .col-md-1 {
